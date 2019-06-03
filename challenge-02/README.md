@@ -46,7 +46,7 @@ function teste(x,y,z) {
   if (x === undefined || y === undefined || z === undefined){
     return 'Preencha todos os valores corretamente!';
   }else{
-    return (x * y * z) + '2';
+    return (x * y * z) + 2;
   }
 }
 
