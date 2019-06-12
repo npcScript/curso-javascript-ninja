@@ -82,11 +82,11 @@ Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-// ?
+console.log( "O autor do livro Mitologia nórdica é " book("Mitologia nórdica").autor "!" )
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
-// ?
+console.log( "O livro Mitologia nórdica foi publicado pela editora " book("Mitologia nórdica").editora "!" )
