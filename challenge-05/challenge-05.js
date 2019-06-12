@@ -20,7 +20,7 @@ segundo, um número. A função deve retornar o valor de um índice do array que
 no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
 segundo parâmetro.
 */
-// ??
+// ???
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
