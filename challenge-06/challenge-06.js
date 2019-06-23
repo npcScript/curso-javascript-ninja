@@ -55,8 +55,8 @@ showTeamPosition(7); // Não temos a informação do time que está nessa posiç
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
-var reg = 20
-while ()
+var reg = 20;
+while ();
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
