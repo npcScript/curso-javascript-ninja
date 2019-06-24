@@ -56,7 +56,9 @@ Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
 repetição "while".
 */
 var reg = 20;
-while ();
+while (reg <= 30) {
+  console.log(reg++);
+}
 
 /*
 Crie uma função chamada `convertToHex`, com as seguintes características:
@@ -70,7 +72,27 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
     a frase:
     "Não temos o equivalente hexadecimal para [COR]."
 */
-// ?
+function convertToHex(x) {
+  switch (x) {
+    case 'red':
+      console.log("O hexadecimal para a cor Red é #FF0000.")
+      break;
+    case 'black':
+      console.log("O hexadecimal para a cor Black é #000000.")
+      break;
+    case 'white':
+      console.log("O hexadecimal para a cor White é #FFFFFF.")
+      break;
+    case 'green':
+      console.log("O hexadecimal para a cor green é #41D500.")
+      break;
+    case 'blue':
+      console.log("O hexadecimal para a cor blue é #2DA9FF.")
+      break;
+    default:
+      console.log("Não temos o equivalente hexadecimal para " + x + ".")
+  }
+}
 
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
