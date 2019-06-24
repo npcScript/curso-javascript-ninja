@@ -13,7 +13,7 @@ Os elementos serão nomes de times do campeonato escolhido, e os nomes devem
 estar na ordem em que eles aparecem na tabela no momento da solução desse
 desafio.
 */
-var teams = [ 'São Paulo', 'Palmeiras', 'Santos', 'Corinthians', 'Flamengo' ]
+var teams = [ 'São Paulo', 'Palmeiras', 'Santos', 'Corinthians', 'Flamengo' ];
 
 console.log( 'Times que estão participando do campeonato:', teams );
 
