@@ -97,4 +97,11 @@ function convertToHex(x) {
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-// ?
+convertToHex('pink') // Não temos o equivalente hexadecimal para pink.
+convertToHex('blue') // O hexadecimal para a cor blue é #2DA9FF.
+convertToHex('orange') // Não temos o equivalente hexadecimal para orange.
+convertToHex('white') // O hexadecimal para a cor White é #FFFFFF.
+convertToHex('black') // O hexadecimal para a cor Black é #000000.
+convertToHex('green') // O hexadecimal para a cor green é #41D500.
+convertToHex('red') // O hexadecimal para a cor Red é #FF0000.
+convertToHex('purple') // Não temos o equivalente hexadecimal para purple.
